@@ -1,3 +1,3 @@
 command = python3 ./SmallSampleIntegration.py
-dafault_schedule = 0 * * ? * *
+default_schedule = 0 * * ? * *
 read_from_stdout = true
