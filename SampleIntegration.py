@@ -15,7 +15,7 @@ with open('ihub_parameters.json', "rb") as PFile:
 processId = ihub_data['processId']
 
 i = 0
-while i < 1:
+while i < 5:
     time.sleep(5)
     integrationOV = OVIntegration.OVIntegration(processId=processId, url=site, userName=user, password=password)
     i = i + 1
